@@ -11,15 +11,8 @@
     Bold: 700
 
     - Line heights:
-    Default: 1
-    Small: 1.05
-    Medium: 1.2
-    Paragraph default: 1.6
-    Large: 1.8
 
     - Letter spacing:
-    -0.5px
-    -0.75px
 
       
 === 02 COLORS
@@ -36,19 +29,30 @@
 
 === 05 SHADOWS
 
+    - Small:
+
+    - Medium:
+
+    - Large:
+
 === 06 BORDER-RADIUS
 
+
+
 === 07 WHITESPACE
+
     - Spacing system (px)
     2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
   font-size: 62.5%;
-  --primary-color: #69db7c;
-  --primary-gray: #343a40;
+  --color-primary: #37b24d;
+  --gray-primary: #343a40;
+  --gray-dark: #212529;
 }
 
 * {
@@ -58,7 +62,7 @@
 }
 
 body {
-  color: var(--primary-gray);
-  font-family: "Poppins" serif;
+  color: var(--gray-primary);
+  font-family: "poppins";
   line-height: 1;
 }
