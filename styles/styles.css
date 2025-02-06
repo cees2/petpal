@@ -1,9 +1,21 @@
 .main-header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/pets-intro.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: 80% 25%;
+  background-repeat: no-repeat;
+}
+
+.main-nav {
+  padding: 2.4rem 3.2rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.4rem 3.2rem;
-  background-color: var(--color-primary);
 }
 
 .main-header-nav-list {
@@ -20,7 +32,7 @@
 .main-header-nav-item:visited {
   text-decoration: none;
   font-size: 1.8rem;
-  color: var(--gray-primary);
+  color: var(--gray-light);
 }
 
 .main-header-nav-item:hover,
@@ -28,12 +40,17 @@
   color: var(--color-primary);
 }
 
-/* ===== INTRODUCTION ===== */
+.header-hero {
+  margin-top: 6.4rem;
+  text-align: center;
+}
 
-.section-introduction {
-  height: calc(100vh - 8rem);
-  background-image: url("../images/dog-intro.jpg");
-  background-size: cover;
-  background-position: 80% 25%;
-  background-repeat: no-repeat;
+.header-hero-sub-header {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.header-hero-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
 }
