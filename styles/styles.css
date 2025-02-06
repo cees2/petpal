@@ -52,5 +52,33 @@
 
 .header-hero-description {
   font-size: 1.8rem;
-  line-height: 1.5;
+  line-height: var(--line-height-large);
+}
+
+/* ===== FEATURES ===== */
+
+.features {
+  margin-top: 9.6rem;
+}
+
+.feature-card-icon {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-card-title {
+  font-size: 1.8rem;
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: 0.8rem;
+}
+
+.feature-card-description {
+  font-size: 1.6rem;
+  line-height: var(--line-height-medium);
 }
