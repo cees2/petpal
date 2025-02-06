@@ -66,3 +66,8 @@ body {
   font-family: "poppins";
   line-height: 1;
 }
+
+.content {
+  max-width: 140rem;
+  margin: 0 auto;
+}

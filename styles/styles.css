@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.6rem 3.2rem 2.4rem;
+  padding: 2.4rem 3.2rem;
+  background-color: var(--color-primary);
 }
 
 .main-header-nav-list {
@@ -25,4 +26,14 @@
 .main-header-nav-item:hover,
 .main-header-nav-item:active {
   color: var(--color-primary);
+}
+
+/* ===== INTRODUCTION ===== */
+
+.section-introduction {
+  height: calc(100vh - 8rem);
+  background-image: url("../images/dog-intro.jpg");
+  background-size: cover;
+  background-position: 80% 25%;
+  background-repeat: no-repeat;
 }
