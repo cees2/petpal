@@ -83,6 +83,7 @@ body {
 .content {
   max-width: 140rem;
   margin: 0 auto;
+  margin-top: 9.6rem;
 }
 
 .header-primary {
@@ -120,6 +121,10 @@ body {
 
 .grid {
   display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid--4-cols {
