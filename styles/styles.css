@@ -143,3 +143,64 @@
   font-size: 1.8rem;
   line-height: 1.5;
 }
+
+/* ===== STATISTICS ===== */
+
+.pricing {
+  display: flex;
+  column-gap: 2.4rem;
+}
+
+.pricing-card {
+  border: 1px solid var(--color-primary-tint);
+  padding: 4.8rem;
+  border-radius: var(--border-radius-large);
+}
+
+.pricing-header {
+  text-align: center;
+}
+
+.pricing-header > h2 {
+  margin-bottom: 1.6rem;
+}
+
+.pricing-description {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  line-height: var(--line-height-medium);
+}
+
+.pricing-price {
+  display: block;
+  margin-bottom: 2.4rem;
+  font-size: 3rem;
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.pricing-feature-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.pricing-feature-list > li {
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  line-height: var(--line-height-large);
+}
+
+.pricing-option-icon {
+  color: var(--color-primary);
+  height: 2.4rem;
+  flex-basis: 2.4rem;
+  align-self: flex-start;
+}
+
+.btn--pricing {
+  display: table;
+  margin: 0 auto 4.8rem auto;
+}
