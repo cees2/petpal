@@ -253,3 +253,18 @@
 .testimonial-date {
   font-size: 1.4rem;
 }
+
+/* ===== CALL TO ACTION ===== */
+
+.cta {
+  background-color: var(--color-primary-shade);
+  border-radius: var(--border-radius-large);
+}
+
+.cta-header {
+  font-size: 2.4rem;
+}
+
+.cta-description {
+  font-size: 2rem;
+}
