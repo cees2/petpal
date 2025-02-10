@@ -144,7 +144,7 @@
   line-height: 1.5;
 }
 
-/* ===== STATISTICS ===== */
+/* ===== PRICING ===== */
 
 .pricing {
   display: flex;
@@ -203,4 +203,53 @@
 .btn--pricing {
   display: table;
   margin: 0 auto 4.8rem auto;
+}
+
+/* ===== TESTIMONIALS ===== */
+
+.testimonials {
+  display: flex;
+  column-gap: 3.2rem;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 25%;
+}
+
+.testimonial-avatar {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 8rem;
+  margin-bottom: 2.4rem;
+}
+
+.testimonial-rating {
+  display: flex;
+  column-gap: 0.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-star {
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-primary);
+}
+
+.testimonial-text-content {
+  line-height: var(--line-height-large);
+  font-size: 1.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.testimonial-author {
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-date {
+  font-size: 1.4rem;
 }
