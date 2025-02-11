@@ -258,13 +258,67 @@
 
 .cta {
   background-color: var(--color-primary-shade);
+  color: var(--gray-light);
+  text-align: center;
+  display: flex;
   border-radius: var(--border-radius-large);
+  gap: 6.4rem;
+  overflow: hidden;
+}
+
+.cta-image {
+  width: 30%;
+  overflow: hidden;
+  object-fit: cover;
+  aspect-ratio: 1;
 }
 
 .cta-header {
-  font-size: 2.4rem;
+  font-size: 4.4rem;
+  margin-bottom: 4.8rem;
 }
 
 .cta-description {
   font-size: 2rem;
+  margin-bottom: 4.8rem;
+}
+
+.cta-content {
+  /* flex-grow: 1; */
+  padding: 3.2rem;
+  width: calc(100% - 30% - 6.4rem);
+}
+
+.cta-label {
+  font-size: 1.8rem;
+  font-weight: var(--font-weight-semi-bold);
+  margin-bottom: 0.8rem;
+  align-self: flex-start;
+}
+
+.cta-form {
+  gap: 3.2rem 1.6rem;
+}
+
+.cta-input > input,
+.cta-input > select {
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  border-radius: var(--border-radius-small);
+  border: none;
+}
+
+.cta-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  align-items: center;
+}
+
+.cta-btn {
+  margin-top: 2.4rem;
+  grid-column: 1 / -1;
+  border: none;
+  border-radius: var(--border-radius-large);
 }
