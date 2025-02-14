@@ -383,3 +383,66 @@
 .faq-content-expanded .faq-icon {
   transform: rotate(180deg);
 }
+
+/* ===== FAQ ===== */
+.footer {
+  margin-bottom: 9.6rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.footer-column {
+  font-size: 1.6rem;
+}
+
+.footer-logo-text {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.footer-social-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.footer-social-media-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.footer-rights {
+  display: block;
+  font-size: 1.2rem;
+  flex-grow: 1;
+}
+
+.footer-column-name {
+  font-size: 2rem;
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.footer-address {
+  font-style: normal;
+  line-height: var(--line-height-medium);
+}
+
+.footer-phone-number {
+  display: block;
+  margin-top: 1.2rem;
+}
+
+.footer-column > a,
+.footer-column > span {
+  text-decoration: none;
+  color: var(--gray-primary);
+}
+
+.footer-column > span:hover {
+  cursor: pointer;
+}
