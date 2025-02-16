@@ -81,6 +81,11 @@ html {
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem var(--color-primary);
+}
+
 body {
   color: var(--gray-primary);
   font-family: "poppins";
