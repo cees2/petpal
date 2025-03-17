@@ -1,0 +1,53 @@
+/* =====  ===== */
+
+@media (max-width: 66em) {
+  .mobile-menu-trigger,
+  .mobile-menu-hide {
+    display: block;
+    height: 4.4rem;
+    width: 4.4rem;
+  }
+
+  .main-nav {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .main-header-nav-list {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    row-gap: 6.4rem;
+    padding-top: 6.4rem;
+    font-weight: var(--font-weight-semi-bold);
+  }
+
+  .mobile-nav-active {
+    overflow: visible;
+  }
+
+  .mobile-nav-active > .main-header-nav-list {
+    transform: translateX(0);
+    background-color: red;
+    z-index: 2;
+  }
+
+  .mobile-nav-active > .mobile-menu-trigger,
+  .mobile-menu-hide {
+    display: none;
+  }
+
+  .mobile-nav-active > .mobile-menu-hide {
+    display: block;
+    z-index: 3;
+  }
+
+  .main-header-nav-item:link,
+  .main-header-nav-item:visited {
+    font-size: 2.4rem;
+  }
+}

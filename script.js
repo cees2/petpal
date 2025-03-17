@@ -33,7 +33,18 @@ const mainNavListClickHandler = (event) => {
   const { target } = event;
   const hrefAttribute = target.getAttribute("href");
   const scrollDestination = document.querySelector(hrefAttribute);
-  scrollDestination.scrollIntoView({ behavior: "smooth", block: "start" });
+  scrollDestination?.scrollIntoView({ behavior: "smooth", block: "start" });
 };
 
 mainNavList.addEventListener("click", mainNavListClickHandler);
+
+const mobileMenuTrigger = document.querySelector(".mobile-menu-trigger");
+const mobileMenuHide = document.querySelector(".mobile-menu-hide");
+
+const mobileMenuTrigerClickHanler = (event) => {
+  const mainNavContainer = document.querySelector(".main-nav");
+  mainNavContainer.classList.toggle("mobile-nav-active");
+};
+
+mobileMenuTrigger.addEventListener("click", mobileMenuTrigerClickHanler);
+mobileMenuHide.addEventListener("click", mobileMenuTrigerClickHanler);

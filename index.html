@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/queries.css" />
     <title>PetPal</title>
     <script defer src="./script.js"></script>
   </head>
   <body>
     <header class="main-header text-light">
       <nav class="main-nav">
+        <ion-icon
+          name="arrow-forward-outline"
+          class="mobile-menu-hide"
+        ></ion-icon>
         <a href="#"><img src="./images/petpal-logo.png" alt="Petpal logo" /></a>
         <ul class="main-header-nav-list">
           <li>
@@ -33,6 +38,7 @@
           <li><a href="#pricing" class="main-header-nav-item">Pricing</a></li>
           <li><a href="#faq" class="main-header-nav-item">FAQ</a></li>
         </ul>
+        <ion-icon name="menu-outline" class="mobile-menu-trigger"></ion-icon>
       </nav>
       <div class="header-hero content">
         <h2 class="header-primary">

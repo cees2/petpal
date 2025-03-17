@@ -55,6 +55,11 @@
   line-height: var(--line-height-large);
 }
 
+.mobile-menu-trigger,
+.mobile-menu-hide {
+  display: none;
+}
+
 /* ===== FEATURES ===== */
 
 .features {
