@@ -64,15 +64,19 @@ html {
   --color-primary: #37b24d;
   --color-primary-tint: #5fc171;
   --color-primary-shade: #277d36;
-  --gray-primary: #343a40;
-  --gray-dark: #212529;
-  --gray-light: #c3cad1;
+  --grey-primary: #343a40;
+  --grey-dark: #212529;
+  --grey-light: #c3cad1;
   --font-weight-bold: 700;
   --font-weight-semi-bold: 600;
+
   --border-radius-small: 8px;
   --border-radius-large: 20px;
+
   --line-height-large: 1.5;
   --line-height-medium: 1.25;
+
+  --bp-largest: 66em;
 }
 
 * {
@@ -87,7 +91,7 @@ html {
 }
 
 body {
-  color: var(--gray-primary);
+  color: var(--grey-primary);
   font-family: "poppins";
   line-height: 1.5;
 }
@@ -111,14 +115,14 @@ body {
 }
 
 .text-light {
-  color: var(--gray-light);
+  color: var(--grey-light);
 }
 
 .btn,
 .link:link,
 .link:visited {
   background-color: var(--color-primary);
-  color: var(--gray-primary);
+  color: var(--grey-primary);
   text-decoration: none;
   padding: 1.6rem 4.8rem;
   border-radius: var(--border-radius-small);

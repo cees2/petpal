@@ -39,7 +39,7 @@ const mainNavListClickHandler = (event) => {
 mainNavList.addEventListener("click", mainNavListClickHandler);
 
 const mobileMenuTrigger = document.querySelector(".mobile-menu-trigger");
-const mobileMenuHide = document.querySelector(".mobile-menu-hide");
+const mobileMenuHide = document.querySelector(".mobile-menu-hide-icon");
 
 const mobileMenuTrigerClickHanler = (event) => {
   const mainNavContainer = document.querySelector(".main-nav");

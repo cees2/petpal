@@ -32,7 +32,7 @@
 .main-header-nav-item:visited {
   text-decoration: none;
   font-size: 1.8rem;
-  color: var(--gray-light);
+  color: var(--grey-light);
 }
 
 .main-header-nav-item:hover,
@@ -263,7 +263,7 @@
 
 .cta {
   background-color: var(--color-primary-shade);
-  color: var(--gray-light);
+  color: var(--grey-light);
   text-align: center;
   display: flex;
   border-radius: var(--border-radius-large);
@@ -345,7 +345,7 @@
 
 .faq-element-number {
   font-size: 4.4rem;
-  color: var(--gray-light);
+  color: var(--grey-light);
   flex-basis: 6.4rem;
   margin-left: 1.6rem;
 }
@@ -445,7 +445,7 @@
 .footer-column > a,
 .footer-column > span {
   text-decoration: none;
-  color: var(--gray-primary);
+  color: var(--grey-primary);
 }
 
 .footer-column > span:hover {
