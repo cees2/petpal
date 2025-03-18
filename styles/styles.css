@@ -389,9 +389,12 @@
   transform: rotate(180deg);
 }
 
-/* ===== FAQ ===== */
+/* ===== FOOTER ===== */
 .footer {
   margin-bottom: 9.6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
 }
 
 .footer-column {
@@ -399,9 +402,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 2.4rem;
-}
-
-.footer-column {
   font-size: 1.6rem;
 }
 
