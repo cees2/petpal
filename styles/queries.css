@@ -1,6 +1,6 @@
 /* =====  ===== */
 
-@media (max-width: 66em) {
+@media screen and (max-width: 66em) {
   .mobile-menu-trigger,
   .mobile-menu-hide-icon {
     height: 4.4rem;
@@ -60,5 +60,147 @@
   .main-header-nav-item:link,
   .main-header-nav-item:visited {
     font-size: 2.4rem;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-card {
+    padding: 2.4rem 1.2rem;
+  }
+
+  .pricing-header > h2 {
+    font-size: 2.4rem;
+  }
+
+  .pricing-price {
+    font-size: 1.8rem;
+  }
+
+  .pricing-feature-list > li {
+    font-size: 1.6rem;
+  }
+
+  .btn--pricing {
+    padding: 1.2rem 2.4rem;
+  }
+}
+
+@media screen and (max-width: 53em) {
+  :root {
+    font-size: 56.25%;
+  }
+
+  .how-it-works-img {
+    width: 100%;
+  }
+
+  .statistics {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-statistics-box {
+    grid-column: 1 / 2;
+  }
+
+  .statistics-box:nth-child(2) {
+    grid-row: 1 / 2;
+    grid-column: 2 / -1;
+  }
+
+  .statistics-number {
+    font-size: 5.2rem;
+  }
+
+  .pricing {
+    flex-wrap: wrap;
+    padding: 3.2rem;
+    row-gap: 3.2rem;
+    justify-content: center;
+  }
+
+  .pricing-card {
+    flex-basis: calc(50% - 1.2rem);
+  }
+
+  .pricing-option-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .testimonials {
+    flex-wrap: wrap;
+  }
+
+  .testimonial-item {
+    flex-basis: calc(50% - 3.2rem);
+  }
+
+  .cta {
+    gap: 0;
+  }
+
+  .cta-image {
+    flex: 1 0;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-icon {
+    margin-right: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .how-it-works {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing {
+    flex-direction: column;
+  }
+
+  .cta {
+    flex-direction: column;
+  }
+
+  .cta-image,
+  .cta-content {
+    width: 100%;
+  }
+
+  .faq-hidden-content {
+    margin: 0 0 3.2rem !important;
+  }
+}
+
+@media screen and (max-width: 28em) {
+  :root {
+    font-size: 50%;
+  }
+
+  .header-hero {
+    padding: 0;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .statistics {
+    grid-template-columns: 1fr;
+  }
+
+  .statistics-box,
+  .statistics-box:nth-child(2) {
+    grid-column: 1 / 2;
+    grid-row: auto;
+  }
+
+  .testimonial-item {
+    flex-basis: 100%;
   }
 }

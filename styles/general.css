@@ -75,8 +75,6 @@ html {
 
   --line-height-large: 1.5;
   --line-height-medium: 1.25;
-
-  --bp-largest: 66em;
 }
 
 * {
@@ -100,12 +98,12 @@ body {
   max-width: 140rem;
   margin: 0 auto;
   margin-top: 9.6rem;
+  padding: 0 3.2rem;
 }
 
 .header-primary {
   font-size: 5.2rem;
   font-weight: var(--font-weight-bold);
-  margin-bottom: 3.2rem;
 }
 
 .header-secondary {
@@ -157,4 +155,8 @@ body {
 
 .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
+}
+
+.margin-bottom--lg{
+  margin-bottom: 3.2rem;
 }
