@@ -385,13 +385,13 @@
   display: block;
 }
 
-.faq-element.faq-content-expanded {
-  border-top: 4px solid var(--color-primary);
-}
-
 .faq-content-expanded .faq-element-number,
 .faq-content-expanded .faq-element-title {
   color: var(--color-primary);
+}
+
+.faq-content-expanded .faq-visible-content {
+  border-top: 4px solid var(--color-primary);
 }
 
 .faq-content-expanded .faq-icon {

@@ -53,7 +53,7 @@
   .mobile-nav-active > .mobile-menu-hide-icon {
     display: block;
     z-index: 3;
-    position: absolute;
+    position: fixed;
     right: 2rem;
   }
 

@@ -1,5 +1,7 @@
 "use strict";
 
+const mainNavContainer = document.querySelector(".main-nav");
+
 const faqClickHandler = function (event) {
   event.stopPropagation();
 
@@ -34,6 +36,7 @@ const mainNavListClickHandler = (event) => {
   const hrefAttribute = target.getAttribute("href");
   const scrollDestination = document.querySelector(hrefAttribute);
   scrollDestination?.scrollIntoView({ behavior: "smooth", block: "start" });
+  mainNavContainer.classList.remove("mobile-nav-active");
 };
 
 mainNavList.addEventListener("click", mainNavListClickHandler);
@@ -42,7 +45,6 @@ const mobileMenuTrigger = document.querySelector(".mobile-menu-trigger");
 const mobileMenuHide = document.querySelector(".mobile-menu-hide-icon");
 
 const mobileMenuTrigerClickHanler = (event) => {
-  const mainNavContainer = document.querySelector(".main-nav");
   mainNavContainer.classList.toggle("mobile-nav-active");
 };
 
