@@ -66,7 +66,8 @@ html {
   --color-primary-shade: #277d36;
   --grey-primary: #343a40;
   --grey-dark: #212529;
-  --grey-light: #c3cad1;
+  --grey-light-1: #c3cad1;
+  --grey-light-2: #ebebec;
   --font-weight-bold: 700;
   --font-weight-semi-bold: 600;
 
@@ -113,7 +114,7 @@ body {
 }
 
 .text-light {
-  color: var(--grey-light);
+  color: var(--grey-light-1);
 }
 
 .btn,
@@ -133,6 +134,7 @@ body {
 .btn:hover,
 .link:hover,
 .link:active {
+  color: var(--grey-dark);
   background-color: var(--color-primary-tint);
 }
 
@@ -157,6 +159,6 @@ body {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.margin-bottom--lg{
+.margin-bottom--lg {
   margin-bottom: 3.2rem;
 }

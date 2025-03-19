@@ -32,12 +32,16 @@
 .main-header-nav-item:visited {
   text-decoration: none;
   font-size: 1.8rem;
-  color: var(--grey-light);
+  color: var(--grey-light-1);
 }
 
 .main-header-nav-item:hover,
 .main-header-nav-item:active {
   color: var(--color-primary);
+}
+
+.mobile-menu-hide-icon {
+  display: none;
 }
 
 .header-hero {
@@ -272,7 +276,7 @@
 
 .cta {
   background-color: var(--color-primary-shade);
-  color: var(--grey-light);
+  color: var(--grey-light-2);
   text-align: center;
   display: flex;
   border-radius: var(--border-radius-large);
@@ -355,7 +359,7 @@
 
 .faq-element-number {
   font-size: 4.4rem;
-  color: var(--grey-light);
+  color: var(--grey-primary);
   flex-basis: 6.4rem;
   margin-left: 1.6rem;
 }

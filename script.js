@@ -1,6 +1,7 @@
 "use strict";
 
 const mainNavContainer = document.querySelector(".main-nav");
+const featuresSection = document.querySelector(".features");
 
 const faqClickHandler = function (event) {
   event.stopPropagation();
