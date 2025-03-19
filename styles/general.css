@@ -127,7 +127,7 @@ body {
   border-radius: var(--border-radius-small);
   font-size: 2rem;
   font-weight: var(--font-weight-semi-bold);
-  transition: 200ms;
+  transition: all 200ms;
   display: inline-block;
 }
 
@@ -136,6 +136,7 @@ body {
 .link:active {
   color: var(--grey-dark);
   background-color: var(--color-primary-tint);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 .try-now-link {
